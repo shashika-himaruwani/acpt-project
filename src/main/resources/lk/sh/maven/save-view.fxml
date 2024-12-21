@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.sh.maven.controller.SaveController">
+   <children>
+      <Label layoutX="205.0" layoutY="24.0" text="Save Data">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtBrand" layoutX="120.0" layoutY="135.0" prefHeight="26.0" prefWidth="333.0" promptText="Enter Brand" />
+      <TextField fx:id="txtModel" layoutX="120.0" layoutY="187.0" prefHeight="26.0" prefWidth="333.0" promptText="Enter Model" />
+      <TextField fx:id="txtQty" layoutX="120.0" layoutY="235.0" prefHeight="26.0" prefWidth="333.0" promptText="Enter Qty" />
+      <TextField fx:id="txtPrice" layoutX="120.0" layoutY="286.0" prefHeight="26.0" prefWidth="333.0" promptText="Enter Price" />
+      <Button layoutX="120.0" layoutY="340.0" mnemonicParsing="false" onAction="#save" prefHeight="26.0" prefWidth="105.0" style="-fx-background-color: Blue;" text="Save" textFill="#e7e4e4">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="377.0" layoutY="340.0" mnemonicParsing="false" onAction="#cancel" style="-fx-background-color: Red;" text="Cancel" textFill="#f2eaea">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtId" layoutX="120.0" layoutY="87.0" prefHeight="26.0" prefWidth="333.0" promptText="Enter Id" />
+   </children>
+</AnchorPane>
