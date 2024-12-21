@@ -25,6 +25,7 @@ public class Queue {
         Node temp = top;
         while(temp != null){
             System.out.println(temp.data);
+
         }
 
     }
