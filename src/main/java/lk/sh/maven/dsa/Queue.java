@@ -6,13 +6,11 @@ public class Queue {
 
     public void push(int data){
         Node node = new Node(data);
-
         if(top == null){
            top = node;
         }
         else{
          Node temp = top;
-
          while(temp.next != null){
              temp = temp.next;
          }
@@ -21,12 +19,12 @@ public class Queue {
         }
     }
 
-    public void printQueue(){
-        Node temp = top;
-        while(temp != null){
-            System.out.println(temp.data);
-
-        }
-
-    }
+//    public void printQueue(){
+//        Node temp = top;
+//        while(temp != null){
+//            System.out.println(temp.data);
+//
+//        }
+//
+//    }
 }
